@@ -1,21 +1,10 @@
-<idea-plugin>
-    <id>kr.co.uplus.sampleplugin</id>
-    <name>Hello sample</name>
-    <version>1.0.0</version>
-    <vendor email="you@example.com">Your Team</vendor>
-
-    <description>
-        A simple plugin that shows a Hello World popup.
-    </description>
-
-    <depends>com.intellij.modules.platform</depends>
-
-    <actions>
-        <action id="HelloWorldAction"
-                class="kr.co.uplus.sampleplugin.HelloWorldAction"
-                text="Say Hello"
-                description="Prints Hello World">
-            <add-to-group group-id="MainMenu" anchor="last"/>
-        </action>
-    </actions>
-</idea-plugin>
+<plugins>
+    <plugin id="com.example.hello"
+            url="https://jangwonikk.github.io/sample-plugin-1.0.zip"
+            version="1.0.0">
+        <idea-version since-build="223.0"/>
+        <name>OAS Plugin</name>
+        <description>One-click regenerate plugin</description>
+        <vendor>your-team</vendor>
+    </plugin>
+</plugins>
